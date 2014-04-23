@@ -8,11 +8,12 @@
 
 #include <stdio.h>
 
-int main(int argc, const char * argv[])
+int main(void)
 {
 
     // insert code here...
-    printf("Hello, World!\n");
+    printf("This project contains the codes for:\n\n Mid-Semester Exam\n Semester 2\n 2013\n");
+    printf("\nTo run another code, select:\n\n Product>Scheme>*CODENAME*\n\nand run again\n");
     return 0;
 }
 
