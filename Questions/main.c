@@ -57,7 +57,7 @@ int main(void)
         else if (question==2)
         {
             printf("\nQuestion 2\n\n");
-            printf("State five examples of real life variables that are best represented by floating point numbers \n\n");
+            printf("State five examples of real life variables that are best represented by floating \npoint numbers \n\n");
             printf("   Temperature\n   Width\n   Height\n   Length\n   Voltage\n   Current\n\n");
 
         }
@@ -71,15 +71,15 @@ int main(void)
         else if (question==4)
         {
             printf("\nQuestion 4\n\n");
-            printf("Why would you use double precision data type instead of floating point data type?\n\n");
-            printf("   Where more accuracy of the results is required or where bigger numbers are needed\n\n");
+            printf("Why would you use double precision data type instead of floating point data \ntype?\n\n");
+            printf("   Where more accuracy of the results is required or where bigger numbers are\n   needed\n\n");
 
         }
         else if (question==5)
         {
             printf("\nQuestion 5\n\n");
-            printf("What would be the best type of variable to use in order to store a number of student marks in a program?\n\n");
-            printf("   A one dimensional array:\n     int marks[100]\n     float marks[100]\n\n");
+            printf("What would be the best type of variable to use in order to store a number of \nstudent marks in a program?\n\n");
+            printf("   One dimensional array:\n     int marks[100]\n     float marks[100]\n\n");
 
         }
         else if (question==6)
@@ -93,12 +93,13 @@ int main(void)
         {
             printf("\nQuestion 7\n\n");
             printf("Give the statement(s) to print out a\n\n");
-            printf("_______________________________\n");
-            printf("|character:             ans   |\n");
-            printf("|integer:               age   |\n");
-            printf("|floating point number: weight|\n");
-            printf("|_____________________________|\n\n");
-            printf("   printf (");
+            printf("   _______________________________\n");
+            printf("   |                             |\n");
+            printf("   |character:             ans   |\n");
+            printf("   |integer:               age   |\n");
+            printf("   |floating point number: weight|\n");
+            printf("   |_____________________________|\n\n");
+            printf("      printf (");
             printf("%s", qseven);
             printf("), ans, age, weight);\n\n");
 
@@ -107,11 +108,12 @@ int main(void)
         {
             printf("\nQuestion 8\n\n");
             printf("Give the statement(s) to read the following input from the keyboard:\n\n");
-            printf("_______________________________\n");
-            printf("|integer:               day   |\n");
-            printf("|floating point number: mass  |\n");
-            printf("|_____________________________|\n\n");
-            printf("   scanf (");
+            printf("   _______________________________\n");
+            printf("   |                             |\n");
+            printf("   |integer:               day   |\n");
+            printf("   |floating point number: mass  |\n");
+            printf("   |_____________________________|\n\n");
+            printf("      scanf (");
             printf("%s", qeight);
             printf(", &day, &mass);\n\n");
 
@@ -120,8 +122,13 @@ int main(void)
         {
             printf("\nQuestion 9\n\n");
             printf("What is the result of the following code? i.e. what is the value of x\n\n");
-            printf("   int x;\n   float y = 5.53;\n   x = y /2;\n\n");
-            printf("     2\n\n   Even though half of 5.53 is 2.765, the fact that\n   x variable type = int\n   and only whole numbers can be used for int\n   the number is truncated so there is no remainders\n   e.g. int 3.14 removes the |.14| and becomes 3\n");
+            printf("   _______________________________\n");
+            printf("   |                             |\n");
+            printf("   |   int x;                    |\n");
+            printf("   |   float y = 5.53;           |\n");
+            printf("   |   x = y/2;                  |\n");
+            printf("   |_____________________________|\n\n");
+            printf("     2\n\n   Even though half of 5.53 is 2.765, the fact that\n   x variable type = int\n   and only whole numbers can be used for int\n   the number is truncated so there is no remainders\n   e.g. int 3.14 removes the |.14| and becomes 3\n\n");
 
         }
         else if (question==10)
@@ -129,6 +136,7 @@ int main(void)
             printf("\nQuestion 10\n\n");
             printf("What is the value of z given the following variable values and expression\n\n");
             printf("   _____________________________\n");
+            printf("   |                           |\n");
             printf("   |  float x = 3.1;           |\n");
             printf("   |  float y = 5.2;           |\n");
             printf("   |  int a = 10;              |\n");
@@ -219,73 +227,79 @@ int main(void)
             printf("   4\n");
             printf("  --- PI x R^3\n");
             printf("   3\n\n");
-            printf("This can be found under the folder >Question 14 within the same folder sub-structure\n\n");
+            printf("This can be found under the folder >Question 14 within the same folder \nsub-structure\n\n");
         }
         else if (question==15)
         {
             printf("\n-----------");
             printf("\nQuestion 1\n\n");
-            printf("State five examples of real life variables that are best represented by integers\n");
+            printf("State five examples of real life variables that are best represented by integers\n\n");
             printf("   Hours\n   Days\n   Years\n   Number of people in a room\n   Number of cars in a carpark\n\n");
             printf("-----------");
             
             printf("\nQuestion 2\n\n");
-            printf("State five examples of real life variables that are best represented by floating point numbers \n");
+            printf("State five examples of real life variables that are best represented by floating \npoint numbers \n\n");
             printf("   Temperature\n   Width\n   Height\n   Length\n   Voltage\n   Current\n\n");
             printf("-----------");
             
             printf("\nQuestion 3\n\n");
-            printf("State five examples of real life variables that are best represented by a string\n");
+            printf("State five examples of real life variables that are best represented by a string\n\n");
             printf("   First name\n   Family name\n   Course\n   TV Program\n   Computer Name\n\n");
             printf("-----------");
             
             printf("\nQuestion 4\n\n");
-            printf("Why would you use double precision data type instead of floating point data type?\n");
-            printf("   Where more accuracy of the results is required or where bigger numbers are needed\n\n");
+            printf("Why would you use double precision data type instead of floating point data \ntype?\n\n");
+            printf("   Where more accuracy of the results is required or where bigger numbers are\n   needed\n\n");
             printf("-----------");
             
             printf("\nQuestion 5\n\n");
-            printf("What would be the best type of variable to use in order to store a number of student marks in a program?\n");
-            printf("   A one dimensional array:\n     int marks[100]\n     float marks[100]\n\n");
+            printf("What would be the best type of variable to use in order to store a number of \nstudent marks in a program?\n\n");
+            printf("   One dimensional array:\n     int marks[100]\n     float marks[100]\n\n");
             printf("-----------");
             
             printf("\nQuestion 6\n\n");
-            printf("What would be the best type of variable to store the height above sea level\nof the land given that each value is defined by its (x,y) coordinates\n");
+            printf("What would be the best type of variable to store the height above sea level\nof the land given that each value is defined by its (x,y) coordinates\n\n");
             printf("   Two dimensional array:\n     int height[1000][1000]\n     float height[1000][1000]\n\n");
             printf("-----------");
             
             printf("\nQuestion 7\n\n");
             printf("Give the statement(s) to print out a\n");
-            printf("_______________________________\n");
-            printf("|character:             ans   |\n");
-            printf("|integer:               age   |\n");
-            printf("|floating point number: weight|\n");
-            printf("|_____________________________|\n\n");
-            printf("   printf (");
+            printf("   _______________________________\n");
+            printf("   |character:             ans   |\n");
+            printf("   |integer:               age   |\n");
+            printf("   |floating point number: weight|\n");
+            printf("   |_____________________________|\n\n");
+            printf("      printf (");
             printf("%s", qseven);
             printf("), ans, age, weight);\n\n");
             printf("-----------");
             
             printf("\nQuestion 8\n\n");
             printf("Give the statement(s) to read the following input from the keyboard:\n");
-            printf("_______________________________\n");
-            printf("|integer:               day   |\n");
-            printf("|floating point number: mass  |\n");
-            printf("|_____________________________|\n\n");
-            printf("   scanf (");
+            printf("   _______________________________\n");
+            printf("   |integer:               day   |\n");
+            printf("   |floating point number: mass  |\n");
+            printf("   |_____________________________|\n\n");
+            printf("      scanf (");
             printf("%s", qeight);
             printf(", &day, &mass);\n\n");
             printf("-----------");
             
             printf("\nQuestion 9\n\n");
             printf("What is the result of the following code? i.e. what is the value of x\n\n");
-            printf("   int x;\n   float y = 5.53;\n   x = y /2;\n\n");
-            printf("     2\n\n   Even though half of 5.53 is 2.765, the fact that\n   x variable type = int\n   and only whole numbers can be used for int\n   the number is truncated so there is no remainders\n   e.g. int 3.14 removes the |.14| and becomes 3\n");
+            printf("   _______________________________\n");
+            printf("   |                             |\n");
+            printf("   |   int x;                    |\n");
+            printf("   |   float y = 5.53;           |\n");
+            printf("   |   x = y/2;                  |\n");
+            printf("   |_____________________________|\n\n");
+            printf("     2\n\n   Even though half of 5.53 is 2.765, the fact that\n   x variable type = int\n   and only whole numbers can be used for int\n   the number is truncated so there is no remainders\n   e.g. int 3.14 removes the |.14| and becomes 3\n\n");
             printf("-----------");
             
             printf("\nQuestion 10\n\n");
             printf("What is the value of z given the following variable values and expression\n");
             printf("   _____________________________\n");
+            printf("   |                           |\n");
             printf("   |  float x = 3.1;           |\n");
             printf("   |  float y = 5.2;           |\n");
             printf("   |  int a = 10;              |\n");
@@ -354,7 +368,7 @@ int main(void)
             printf("   4\n");
             printf("  --- PI x R^3\n");
             printf("   3\n\n");
-            printf("This can be found under the folder >Question 14 within the same folder sub-structure\n\n");
+            printf("This can be found under the folder >Question 14 within the same folder \nsub-structure\n\n");
             
             }
         
