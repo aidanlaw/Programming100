@@ -1,5 +1,5 @@
-Programming100
-==============
+Midsemester 2 - 2008
+====================
 
 To access other exams, select an alternative branch (pull down menu next to the green button)
 
