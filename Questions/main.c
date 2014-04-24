@@ -32,6 +32,8 @@ int main(void)
     float question;
     char qseven [11]= {'"', '%', 'c', ' ', '%', 'd', ' ', '%', 'f', '"', '\0'};
     char qeight [8]= {'"', '%', 'd', ' ', '%', 'f', '"', '\0'};
+    char apo [2]= {'"', '\0'};
+    char bac [2]= {'\\', '\0'};
     
     do
     {
@@ -168,14 +170,56 @@ int main(void)
         else if (question==13)
         {
             printf("\nQuestion 13\n\n");
-            printf("State five examples of real life variables that are best represented by integers\n");
-            printf("   Hours\n   Days\n   Years\n   Number of people in a room\n   Number of cars in a carpark\n\n");
+            printf("Under what circumstances would you use a switch/case statement instead of\nif...elseif...else\n\n");
+            printf("   If there was a large number of of alternative choices.\n   For example, a grade conversion to a letter grade\n\n");
+            printf("     Example\n\n");
+            printf("     _____________________________________________________________\n");
+            printf("     |                                                           |\n");
+            printf("     |   switch(marks)                                           |\n");
+            printf("     |   {                                                       |\n");
+            printf("     |      case 0: case 1: case 2: case 3: case 4:              |\n");
+            printf("     |         printf(");
+            printf("%s", apo);
+            printf("Fail");
+            printf("%s", bac);
+            printf("n");
+            printf("%s", apo);
+            printf(");                                 |\n");
+            printf("     |         break;                                            |\n");
+            printf("     |                                                           |\n");
+            printf("     |     case 5:                                               |\n");
+            printf("     |         printf(");
+            printf("%s", apo);
+            printf("Pass");
+            printf("%s", bac);
+            printf("n");
+            printf("%s", apo);
+            printf(");                                 |\n");
+            printf("     |         break;                                            |\n");
+            printf("     |                                                           |\n");
+            printf("     |     ...                                                   |\n");
+            printf("     |                                                           |\n");
+            printf("     |     case 9:                                               |\n");
+            printf("     |         printf(");
+            printf("%s", apo);
+            printf("High Distinction");
+            printf("%s", bac);
+            printf("n");
+            printf("%s", apo);
+            printf(");                     |\n");
+            printf("     |         break;                                            |\n");
+            printf("     |   }                                                       |\n");
+            printf("     |___________________________________________________________|\n\n");
+            
         }
         else if (question==14)
         {
             printf("\nQuestion 14\n\n");
-            printf("State five examples of real life variables that are best represented by integers\n");
-            printf("   Hours\n   Days\n   Years\n   Number of people in a room\n   Number of cars in a carpark\n\n");
+            printf("Write a complete C program to read in two floating point values representing\nthe external and internal radii of a spherical ball. Compute and output the \nvolume of the material in the ball. The equation for the volume of a sphere is\n\n");
+            printf("   4\n");
+            printf("  --- PI x R^3\n");
+            printf("   3\n\n");
+            printf("This can be found under the folder >Question 14 within the same folder sub-structure\n\n");
         }
         else if (question==15)
         {
@@ -262,24 +306,58 @@ int main(void)
             printf("   Main point allows you to determine compiler errors and warnings as you \n   add each piece of code to the program.  You catch errors and warnings early. \n   This makes it easier to remove them.\n\n");
             printf("-----------");
             
+            printf("\nQuestion 13\n\n");
+            printf("Under what circumstances would you use a switch/case statement instead of\nif...elseif...else\n\n");
+            printf("   If there was a large number of of alternative choices.\n   For example, a grade conversion to a letter grade\n\n");
+            printf("     Example\n\n");
+            printf("     _____________________________________________________________\n");
+            printf("     |                                                           |\n");
+            printf("     |   switch(marks)                                           |\n");
+            printf("     |   {                                                       |\n");
+            printf("     |      case 0: case 1: case 2: case 3: case 4:              |\n");
+            printf("     |         printf(");
+            printf("%s", apo);
+            printf("Fail");
+            printf("%s", bac);
+            printf("n");
+            printf("%s", apo);
+            printf(");                                 |\n");
+            printf("     |         break;                                            |\n");
+            printf("     |                                                           |\n");
+            printf("     |     case 5:                                               |\n");
+            printf("     |         printf(");
+            printf("%s", apo);
+            printf("Pass");
+            printf("%s", bac);
+            printf("n");
+            printf("%s", apo);
+            printf(");                                 |\n");
+            printf("     |         break;                                            |\n");
+            printf("     |                                                           |\n");
+            printf("     |     ...                                                   |\n");
+            printf("     |                                                           |\n");
+            printf("     |     case 9:                                               |\n");
+            printf("     |         printf(");
+            printf("%s", apo);
+            printf("High Distinction");
+            printf("%s", bac);
+            printf("n");
+            printf("%s", apo);
+            printf(");                     |\n");
+            printf("     |         break;                                            |\n");
+            printf("     |   }                                                       |\n");
+            printf("     |___________________________________________________________|\n\n");
+            printf("-----------");
             
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
+            printf("\nQuestion 14\n\n");
+            printf("Write a complete C program to read in two floating point values representing\nthe external and internal radii of a spherical ball. Compute and output the \nvolume of the material in the ball. The equation for the volume of a sphere is\n\n");
+            printf("   4\n");
+            printf("  --- PI x R^3\n");
+            printf("   3\n\n");
+            printf("This can be found under the folder >Question 14 within the same folder sub-structure\n\n");
             
             }
         
-            
-            
-            
         else
         {
             printf("\n%f is not a valid input\n\n", question);
